@@ -6,7 +6,7 @@ from feedback_generator import generate_feedback
 
 st.set_page_config(page_title="📄 Resume Critic Pro", layout="centered")
 
-st.title("🧐 Resume Critic Pro – Industry-Ready AI Resume Analyzer")
+st.title("🧐 Resume Critic Pro – Resume Analyzer")
 st.write("Upload your resume and paste the job description to receive an AI-driven analysis.")
 
 resume_file = st.file_uploader("📄 Upload Resume (PDF or TXT)", type=["pdf", "txt"])
